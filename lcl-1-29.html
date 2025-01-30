@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawn Care & Love</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-leaf"></i> Lawn Care & Love</h1>
+        <p>Professional Lawn Care Services</p>
+    </header>
+
+    <section class="hero">
+        <h2>Your Lawn Deserves Love</h2>
+        <p>Get started today and we'll plant a tree in your honor!</p>
+        <button onclick="document.getElementById('quote').scrollIntoView()">Get Free Quote</button>
+    </section>
+
+    <div class="container">
+        <section class="services">
+            <div class="service-card">
+                <h3>Basic Care</h3>
+                <div class="price-tag">$109/mo</div>
+                <ul>
+                    <li><i class="fas fa-check"></i>Weekly Mowing</li>
+                    <li><i class="fas fa-check"></i>Edging</li>
+                    <li><i class="fas fa-check"></i>Trimming</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <h3>Premium Care</h3>
+                <div class="price-tag">$179/mo</div>
+                <ul>
+                    <li><i class="fas fa-check"></i>All Basic Features</li>
+                    <li><i class="fas fa-check"></i>Fertilization</li>
+                    <li><i class="fas fa-check"></i>Weed Control</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <h3>Ultimate Care</h3>
+                <div class="price-tag">$249/mo</div>
+                <ul>
+                    <li><i class="fas fa-check"></i>All Premium Features</li>
+                    <li><i class="fas fa-check"></i>Seasonal Cleanups</li>
+                    <li><i class="fas fa-check"></i>Mulching</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="quote">
+            <h2>Request a Quote</h2>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Phone" required>
+                <textarea placeholder="Service Details" rows="4"></textarea>
+                <button type="submit">Get Quote</button>
+            </form>
+        </section>
+
+        <section class="tree-pledge">
+            <h2>Our Green Promise</h2>
+            <p>For every new customer, we plant a tree to help the environment</p>
+            <p>🌳 1234 Trees Planted and Counting!</p>
+        </section>
+
+        <section id="payment">
+            <h2>Secure Payment</h2>
+            <form>
+                <input type="text" placeholder="Card Number" required>
+                <input type="text" placeholder="Expiration Date" required>
+                <input type="text" placeholder="CVC" required>
+                <button type="submit">Make Payment</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>Contact us: 469-490-8818 | Dougolisious@lawncarelove.com</p>
+        <p>© 2023 Lawn Care & Love</p>
+    </footer>
+</body>
+</html>
